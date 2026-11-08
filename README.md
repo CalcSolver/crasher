@@ -1,7 +1,10 @@
 # Windows Internet Crasher
 This script when run executes bots that slow down your internet
 ## Instalation
-clone this repo
+clone this repo at 
+```text
+git clone
+```
 
 
 
